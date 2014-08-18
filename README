@@ -1,3 +1,20 @@
+Steps to change / fix library issues:
+
+- checkout a branch from master
+- copy/paste the mark from the session you think it's wrong
+- go to URL https://www.branah.com/ascii-converter
+- paste the mark to the ASCII field and click convert
+- look the number on the HEX-field
+    -> first two letters / numbers point the the unicode file
+    -> last two letters / numbers point the variable itself
+- fix the found errors
+- ssh to vagrant
+- navigate to unicode -folder
+- type python setup.py install
+- test the session to see everything's OK
+- push origin and create a pull request
+
+
 Unidecode, lossy ASCII transliterations of Unicode text
 =======================================================
 
