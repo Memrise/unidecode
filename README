@@ -1,21 +1,3 @@
-Steps to change / fix library issues:
-
-- navigate to the unidecode folder on your local machine
-- checkout a branch from master
-- copy the marks (one by one) you think are wrong
-- go to URL https://www.branah.com/ascii-converter
-- paste the mark to the ASCII field and click convert
-- look the number on the HEX-field
-    -> first two letters / numbers point the the unidecode file
-    -> last two letters / numbers point the variable itself
-- fix the found errors
-- ssh to VM
-- navigate to unidecode -folder
-- type python setup.py install
-- test the session to see everything's OK
-- push origin and create a pull request
-
-
 Unidecode, lossy ASCII transliterations of Unicode text
 =======================================================
 
