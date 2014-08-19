@@ -141,7 +141,7 @@ class TestUnidecode(unittest.TestCase):
 
             # Memrise fixes
             (u"しゅくだい",
-            "shukudai"),
+            "shiyukudai"),
 
             (u"いじわる",
             "ijiwaru"),
