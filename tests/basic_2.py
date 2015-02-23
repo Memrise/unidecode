@@ -148,6 +148,13 @@ class TestUnidecode(unittest.TestCase):
 
             (u"年",
             "Nichi "),
+
+            (u"什",
+            ['Shi ', 'Shen ']),
+
+            (u"么",
+            ['Yao ', 'Me ']),
+
         ]
 
         for input, correct_output in TESTS:
