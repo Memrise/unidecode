@@ -252,7 +252,7 @@ data = (
 'Yong ',    # 0xfa
 'Qiao ',    # 0xfb
 'Yi ',    # 0xfc
-'Du |Dou ',    # 0xfd
+'Du -|-Dou ',    # 0xfd
 'Yan ',    # 0xfe
 'Mei ',    # 0xff
 )
