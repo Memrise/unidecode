@@ -71,8 +71,7 @@ data = (
 'Jiu ',    # 0x45
 'Jiu ',    # 0x46
 'Zhe ',    # 0x47
-        'Yao ',    # 0x48
-        'Me ',    # 0x48
+'Yao|me ',    # 0x48
 'Yi ',    # 0x49
 '[?] ',    # 0x4a
 'Zhi ',    # 0x4b
@@ -192,8 +191,7 @@ data = (
 'La ',    # 0xbd
 'Wang ',    # 0xbe
 'Yi ',    # 0xbf
-        'Shen ',    # 0xc0
-        'Shi ',    # 0xc0
+'Shi|Shen ',    # 0xc0
 'Ren ',    # 0xc1
 'Le ',    # 0xc2
 'Ding ',    # 0xc3
