@@ -97,7 +97,7 @@ data = (
 'Quan ',    # 0x5f
 'Pen ',    # 0x60
 'Wen ',    # 0x61
-'Ni ',    # 0x62
+'Ni -|-Ne ',    # 0x62
 'M ',    # 0x63
 'Ling ',    # 0x64
 'Ran ',    # 0x65

@@ -1,6 +1,6 @@
 data = (
 'Yu ',    # 0x00
-'Shui ',    # 0x01
+'Shui -|-Shei ',    # 0x01
 'Shen ',    # 0x02
 'Diao ',    # 0x03
 'Chan ',    # 0x04

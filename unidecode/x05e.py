@@ -115,7 +115,7 @@ data = (
 'Lan ',    # 0x71
 'Gan ',    # 0x72
 'Ping ',    # 0x73
-'Nichi ',    # 0x74
+'Nichi -|-Nian ',    # 0x74
 'Qian ',    # 0x75
 'Bing ',    # 0x76
 'Bing ',    # 0x77

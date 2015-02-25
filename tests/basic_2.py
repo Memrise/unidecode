@@ -147,7 +147,25 @@ class TestUnidecode(unittest.TestCase):
             "ijiwaru"),
 
             (u"年",
-            "Nichi "),
+            "Nichi -|-Nian "),
+
+            (u"什",
+            "Shi -|-Shen "),
+
+            (u"么",
+            "Yao -|-Me "),
+
+            (u"了",
+            "Liao -|-Le "),
+
+            (u"谁",
+            "Shui -|-Shei "),
+
+            (u"呢",
+            "Ni -|-Ne "),
+
+            (u"都",
+            "Du -|-Dou "),
         ]
 
         for input, correct_output in TESTS:
