@@ -140,24 +140,6 @@ class TestUnidecode(unittest.TestCase):
              ''),
 
             # Memrise fixes
-            (u"しゅくだい",
-            "shiyukudai"),
-
-            (u"しゅくだい",
-            "shukudai"),
-
-            (u"ちゃひゅきょみゃにゅりょしゃぎゅじょじょびゃぴゅ",
-            "chahyukyomyanyuryoshagyujojyobyapyu"),  # To be backward compatible jo and jyo are both correct for じょ
-
-            (u"チュヒョキャミュニョリャシュギョジャジャビュピョ",
-            "chuhyokyamyunyoryashugyojajyabyupyo"),
-
-            (u"ふふちょちょ",
-            "fuhuchochiyo"),  # To be backward compatible chiyo and hu are still accepted
-
-            (u"フフチョチョジジジゅ",
-            "fuhuchochiyojizizu"),  # To be backward compatible chiyo and hu are still accepted
-
             (u"いじわる",
             "ijiwaru"),
 
