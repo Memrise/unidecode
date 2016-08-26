@@ -143,6 +143,21 @@ class TestUnidecode(unittest.TestCase):
             (u"しゅくだい",
             "shiyukudai"),
 
+            (u"しゅくだい",
+            "shukudai"),
+
+            (u"ちゃひゅきょみゃにゅりょしゃぎゅじょじょびゃぴゅ",
+            "chahyukyomyanyuryoshagyujojyobyapyu"),  # To be backward compatible jo and jyo are both correct for じょ
+
+            (u"チュヒョキャミュニョリャシュギョジャジャビュピョ",
+            "chuhyokyamyunyoryashugyojajyabyupyo"),
+
+            (u"ふふちょちょ",
+            "fuhuchochiyo"),  # To be backward compatible chiyo and hu are still accepted
+
+            (u"フフチョチョ",
+            "fuhuchochiyo"),  # To be backward compatible chiyo and hu are still accepted
+
             (u"いじわる",
             "ijiwaru"),
 
