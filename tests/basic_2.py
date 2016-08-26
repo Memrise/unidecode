@@ -155,8 +155,8 @@ class TestUnidecode(unittest.TestCase):
             (u"ふふちょちょ",
             "fuhuchochiyo"),  # To be backward compatible chiyo and hu are still accepted
 
-            (u"フフチョチョ",
-            "fuhuchochiyo"),  # To be backward compatible chiyo and hu are still accepted
+            (u"フフチョチョジジジゅ",
+            "fuhuchochiyojizizu"),  # To be backward compatible chiyo and hu are still accepted
 
             (u"いじわる",
             "ijiwaru"),
